@@ -14,7 +14,7 @@ function Register() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:1539/register', { username, password, isAdmin });
+            const response = await axios.post('https://to-do-list-with-sign-up-backend.onrender.com/register', { username, password, isAdmin });
             alert('User registered successfully');
             setHasRegistered(true);
             console.log(response);
