@@ -27,7 +27,7 @@ function Login() {
         e.preventDefault();
 
         try {
-            const response = await axios.post('http://localhost:1539/login', { username, password });
+            const response = await axios.post('https://to-do-list-with-sign-up-backend.onrender.com/login', { username, password });
             setToken(response.data.token);
             setIsAdmin(response.data.user.isAdmin);
             setTodos(response.data.user.todos);
@@ -44,7 +44,7 @@ function Login() {
     const handleAdd = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:1539/add', 
+            const response = await axios.post('https://to-do-list-with-sign-up-backend.onrender.com/add', 
             { username, inputTodo, isAdmin }, 
             { headers: { Authorization: token },
             });
@@ -62,7 +62,7 @@ function Login() {
     // This deletes a chosen task by using its index to find it in the user's 'todos'
     const removeTodo = async (index) => {
         try {
-            const response = await axios.post(`http://localhost:1539/delete`, 
+            const response = await axios.post(`https://to-do-list-with-sign-up-backend.onrender.com/delete`, 
             { username, index, isAdmin },
             { headers: { Authorization: token },
             })
@@ -84,7 +84,7 @@ function Login() {
     const handleEdit = async (e, index) => {
         e.preventDefault();
         try {
-            const response = await axios.post(`http://localhost:1539/edit`, 
+            const response = await axios.post(`https://to-do-list-with-sign-up-backend.onrender.com/edit`, 
             { username, editIndex, editValue, isAdmin },
             { headers: { Authorization: token },
             })
