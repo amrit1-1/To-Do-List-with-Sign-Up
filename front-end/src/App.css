@@ -1,0 +1,161 @@
+/* This file styles the entire web app with different types of buttons and 
+other elements. */
+
+.App {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title-and-tasks {
+  position: sticky;
+  top: 0;
+  margin: 20px;
+  background-color: rgb(194, 194, 194);
+  color: white;
+  text-shadow: 2px 2px 5px #868686;
+  padding: 10px;
+  border-radius: 90px;
+}
+
+.nav {
+  margin: 20px;
+  align-items: center;
+}
+
+.button {
+  margin-left: 10px;
+  border: 0;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(175, 219, 219);
+  color: white;
+  text-shadow: 2px 2px 3px #868686;
+}
+
+.nope {
+  margin-left: 10px;
+  border: 0;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(134, 134, 134);
+  color: white;
+  text-shadow: 2px 2px 3px #868686;
+}
+
+.edit-tool{
+  font-size:x-small;
+  margin-left: 10px;
+  border: 0;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(190, 175, 219);
+  color: white;
+  text-shadow: 2px 2px 3px #868686;
+}
+
+.delete-tool{
+  font-size: x-small;
+  margin-left: 10px;
+  border: 0;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(219, 175, 175);
+  color: white;
+  text-shadow: 2px 2px 3px #868686;
+}
+
+.disabled{
+  font-size: x-small;
+  margin-left: 10px;
+  border: 0;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(165, 165, 165);
+  color: white;
+  text-shadow: 2px 2px 3px #868686;
+}
+
+.delete{
+  border: 0;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(194, 194, 194);
+  margin: 10px;
+  color: white;
+  text-shadow: 2px 2px 3px #868686;
+}
+
+.todo {
+  border: solid rgb(218, 218, 218) 2px;
+  margin: 15px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  border-radius: 60px;
+}
+
+.update {
+  border: 0;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(219, 212, 175);
+  margin: 30px;
+  color: white;
+  text-shadow: 2px 2px 3px #868686;
+}
+
+.back {
+  border: 0;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(175, 186, 219);
+  margin: 10px;
+  color: white;
+  text-shadow: 2px 2px 3px #868686;
+}
+
+.info {
+  border: 0;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(0, 0, 0);
+  margin: 5px;
+  color: white;
+}
+
+.go-back {
+  border: 0;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: rgb(124, 124, 124);
+  margin: 5px;
+  color: white;
+}
+
+.list {
+  text-align: left;
+  padding-left: 80px;
+  padding-right: 80px;
+}
